@@ -21,23 +21,7 @@ require('lazy').setup({ { import = "plugins" } })
     - https://github.com/fedepujol/move.nvim
 ]]
 
-vim.keymap.set('n', '<A-k>', ':move -2<CR>')
-vim.keymap.set('n', '<A-up>', ':move -2<CR>')
-vim.keymap.set('n', '<A-j>', ':move +1<CR>')
-vim.keymap.set('n', '<A-down>', ':move +1<CR>')
-
-vim.o.number = true
-vim.o.relativenumber = true
-
-vim.opt.list = true
-vim.opt.listchars = { tab = '→ ', trail = '·' }
-
-vim.opt.expandtab = true
-vim.opt.tabstop = 4
-vim.opt.softtabstop = vim.opt.tabstop:get()
-vim.opt.shiftwidth = 4
-
-vim.opt.fillchars:append({ eob = ' ' })
+require("sets")
+require("remaps")
 
 vim.notify("starting nvim 🏕️")
-

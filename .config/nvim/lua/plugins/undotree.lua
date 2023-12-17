@@ -2,7 +2,7 @@ return {
     "mbbill/undotree",
     keys = {
         {
-            "<C-u>",
+            "<A-u>",
             function()
                 vim.cmd.UndotreeToggle();
                 vim.cmd.UndotreeFocus();
