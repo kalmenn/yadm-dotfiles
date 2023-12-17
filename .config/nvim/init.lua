@@ -40,3 +40,4 @@ vim.opt.shiftwidth = 4
 vim.opt.fillchars:append({ eob = ' ' })
 
 vim.notify("starting nvim 🏕️")
+
