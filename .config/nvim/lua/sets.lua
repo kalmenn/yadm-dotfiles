@@ -28,9 +28,6 @@ vim.opt.updatetime = 50
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
 
--- auto-close unused buffers if all changes have been saved
-vim.opt.hidden = false
-
 -- stuff
 
 vim.opt.fillchars:append({ eob = ' ' })

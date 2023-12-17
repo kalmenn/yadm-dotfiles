@@ -1,4 +1,5 @@
 {
+  "barbar.nvim": { "branch": "master", "commit": "a8fe0abe538f15997a543e0f653993ef3727455f" },
   "fd": { "branch": "master", "commit": "00b64f3ccbfb832ef744bb42bbdfabaf929b5ee2" },
   "feline.nvim": { "branch": "main", "commit": "a6bebd903e84d5ce0e97c597e0ca85cd24109002" },
   "gitsigns.nvim": { "branch": "main", "commit": "d195f0c35ced5174d3ecce1c4c8ebb3b5bc23fa9" },
