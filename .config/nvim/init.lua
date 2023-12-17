@@ -15,10 +15,10 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require('lazy').setup({
-    { name = "catppuccin", url = "https://github.com/catppuccin/nvim.git" },
-    { name = 'treesitter', url = "https://github.com/nvim-treesitter/nvim-treesitter.git" },
-    { name = 'lsp-config', url = 'https://github.com/neovim/nvim-lspconfig.git' },
-    { name = 'nvim-tree', url = 'https://github.com/nvim-tree/nvim-tree.lua.git' }, -- TODO: replace with neo-tree
+    "catppuccin/nvim",
+    "nvim-treesitter/nvim-treesitter",
+    "neovim/nvim-lspconfig",
+    "nvim-tree/nvim-tree", -- TODO: replace with neo-tree
 })
 
 --[[
