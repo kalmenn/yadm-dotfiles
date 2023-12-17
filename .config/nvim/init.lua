@@ -16,11 +16,6 @@ vim.opt.rtp:prepend(lazypath)
 
 require('lazy').setup({ { import = "plugins" } })
 
---[[
-    Potential plugins to integrate:
-    - https://github.com/fedepujol/move.nvim
-]]
-
 require("sets")
 require("remaps")
 
