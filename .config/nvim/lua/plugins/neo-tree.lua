@@ -17,6 +17,10 @@ return {
                     visible = true,
                 },
             },
+            window = {
+                position = "right",
+                width = 30,
+            },
         })
     end,
     keys = {
